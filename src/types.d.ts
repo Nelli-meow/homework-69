@@ -1,12 +1,14 @@
 interface IFilm {
-  title: string,
+  name: string,
   description: string,
   img: string,
   id?: string,
+  genres: string;
+  summary: string;
 }
 
 interface IFilmForm {
-  title: string,
+  name: string,
   status: boolean,
 }
 
