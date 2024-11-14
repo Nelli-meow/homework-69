@@ -5,6 +5,11 @@ interface IFilm {
   id?: string,
 }
 
+interface IFilmForm {
+  title: string,
+  status: boolean,
+}
+
 interface IFilmAPI {
   [id: string]: IFilm;
 }
