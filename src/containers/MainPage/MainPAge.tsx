@@ -1,5 +1,5 @@
-import SearchForm from '../SearchForm/SearchForm.tsx';
-import FilmsItem from '../FilmsItem/FilmsItem.tsx';
+import SearchForm from '../../components/SearchForm/SearchForm.tsx';
+import FilmsItem from '../../components/FilmsItem/FilmsItem.tsx';
 
 
 const MainPAge = () => {
