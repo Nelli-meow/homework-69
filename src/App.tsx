@@ -1,13 +1,13 @@
-import './App.css'
-import SearchForm from './components/SearchForm/SearchForm.tsx';
+import * as React from 'react';
+import './App.css';
+import SearchForm from './components/SearchForm/SearchForm';
 
-const App = () => {
-
+const App: React.FC = () => {
   return (
     <>
-      <SearchForm/>
+      <SearchForm />
     </>
-  )
+  );
 };
 
-export default App
+export default App;
